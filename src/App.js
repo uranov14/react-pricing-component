@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='absolute top-0 right-0'>
+      <div className='bg-tb absolute top-0 right-0'>
         <img src={bgTop} alt="" className='w-full max-w-full'/>
       </div>
       <section className="p-5 lg:flex lg:flex-col items-center justify-center lg:h-screen">
@@ -94,7 +94,7 @@ function App() {
           </a>.
         </div>
       </section>
-      <div className='absolute bottom-0 left-0'>
+      <div className='bg-tb absolute bottom-0 left-0'>
         <img src={bgBottom} alt="" className='w-full max-w-full'/>
       </div>
     </>

@@ -13,6 +13,10 @@ body {
   background-color: hsl(240, 78%, 98%);
 }
 
+.bg-tb {
+  z-index: -10;
+}
+
 .linear-gradient {
   background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 }
